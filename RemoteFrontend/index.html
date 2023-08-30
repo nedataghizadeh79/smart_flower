@@ -1,0 +1,73 @@
+
+<head>
+    <title>Smart Pot</title>
+    <link rel="icon" type="image/x-icon" href="icons/icon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-top-container">
+            <div class="image-container">
+                <img src="icons/icon.avif" alt="Icon Image">
+            </div>
+            <div class="top-container">
+                <div class="item-row">
+                    <div class="text-item">
+                        <img src="icons/temperature.png" alt="temperature">
+                        <div class="text" id="temperature-text">
+                            <p class="item-text">Temperature</p>
+                            <p id="tempareture-value">0</p>
+                        </div>
+                    </div>
+                    <div class="text-item">
+                        <img src="icons/humidity.png" alt="humidity">
+                        <div class="text" id="humidity-text">
+                            <p class="item-text">Humidity</p>
+                            <p id="humidity-value">0</p>
+                        </div>
+                    </div>
+                    <div class="text-item">
+                        <img src="icons/moisturelevel.png" alt="moisture">
+                        <div class="text" id="moisture-text">
+                            <p class="item-text">Moisture</p>
+                            <p id="moisture-value">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <div class="item" id="moisture">
+                        <img src="icons/moisture.png" alt="moisture">
+                    </div>
+                    <div class="item" id="brightness">
+                        <img src="icons/brightness.png" alt="brightness">
+                    </div>
+                    <div class="item" id="waterlevel">
+                        <img src="icons/waterlevel.png" alt="Water Level">
+                    </div>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="icons/icon.avif" alt="Icon Image">
+            </div>
+        </div>
+
+        
+
+        <div class="toggle" id="toggleContainer">
+            <button id="toggleButton">Automatic</button>
+        </div>
+        
+        <div class="lightwater disabled" id="light-water">            
+            <button id="light" class="off">
+                <img src="icons/light.png" alt="Light">
+            </button>
+            <button id="water" class="off">
+                <img src="icons/water.png" alt="Water">
+            </button>
+        </div>
+
+    </div>
+
+    <script src="dist/bundle.js"></script>
+</body>
